@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta lang="zh-TW" charset="utf-8">
+    <title>1C的網站</title><!-- Sets the title of the HTML page -->
+  </head>
+
+  <body>
+    <!--Background-->
+    <div class="blur-background"></div>
+    <div class="white-cover"></div>
+
+    <!--照片-->
+    <div class = "center">
+      <img id = "pfp" src="123.jpg">
+    </div>
+
+    <!--名字-->
+    <div id="name">
+       <h1>1C</h1>
+    </div><br>
+
+    <!--音樂-->
+    <div id = "music">
+      <a href = "https://youtu.be/mC8yEN8S7qk">【勇敢衝 Fearless Advance】｜朱康</a>
+      <p>00:00 ◉─────── 4:30 ⇄ ◁ II ▷ ↻</p>
+      <h3>我的LGBTQ認同是北洋政府</h3>
+    </div>
+
+    <!--自介-->
+    <div id="intro" style = "font-size: 20px;" >
+      <h2 style = "text-align: center;">自介</h2>
+      <ul>
+        <li> 名字: 1C </li>
+        <li> 年紀: 23</li>
+        <li> 專長: 程序設計、CAD繪圖、機器學習、CNC</li>
+        <li> 病狀: 抽象、思想超前</li>
+        <li> 血型: 黃埔</li>
+      </ul>
+    </div>
+
+  <!--獎項-->
+  <div id = "award" style = "font-size: 20px;">
+    <h2 style = "text-align: center;">相關獎項</h2>
+    <ul>
+      <li>美國時代週刊2006年度風雲人物</li>
+      <li>2008年感動中國組委會特別大獎</li>
+      <li>2022年國際奧林匹克獎盃獲得者</li>
+      <li>車工丙、銑床乙</li>
+    </ul>
+  </div>
+
+  <!--圖片-->
+  <div id= "images">
+    <nav id = "images-nav">
+      <img src = "麥克風.png" width = 280px; height= 205px style = "border-radius: 20%;">
+      <img src = "IMG_7737.jpg" width = 280px; height= 205px style = "border-radius: 20%;">
+    </nav>
+  </div>
+  </body>
+
+  <!--帳號-->
+  <div id = "accounts" style="text-align: center;">
+    <nav>
+      <a href = "https://github.com/z23788677"><img src = https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png
+        width = 100px; style = "margin: 30px;"></a>
+
+      <a href = "https://www.instagram.com/x23788677/"><img src = https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png
+        width = 100px; style = "margin: 30px;"></a>
+
+      <img src = https://cdn-icons-png.flaticon.com/512/5968/5968756.png
+        width = 100px; style = "margin: 30px;"></a>
+    </nav>
+  </div>
+
+  <!--帳號文字-->
+  <div style="text-align: center;">
+      <h3 style="translate: -170px 20px">Github: x23788677<h3>
+      <h3 style="translate: 0 -24px">IG: x23788677</h3>
+      <h3 style="translate: 170px -66px">DC: education.edu</h3>
+  </div>
+  <style>
+    .blur-background {
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background-size: cover;
+      background-position: center;
+      filter: blur(10px);
+      z-index: -2;
+      background-image: url(https://i.redd.it/8koqhp7094e81.gif);
+    }
+
+    .white-cover{
+      z-index: -1;
+      position: fixed;
+      top:0; left:0; right:0; bottom:0;
+      background-color: rgba(255,255,255,0.35);
+    }
+
+    #pfp{
+      margin-top: 50px;
+      border-radius: 50%;
+      width: 180px;
+    }
+
+    .center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #name{
+      font-size: 15px;
+      line-height: 15px;
+      margin: 10px;
+      text-align: center;
+    }
+
+    #music{
+      translate: 0 -15px;
+      text-align: center;
+      font-weight:900;
+      margin: auto;
+    }
+
+    #intro{
+      border-radius: 5%;
+      font-weight: bold;
+      padding: 10px 0px;
+      line-height: 24px;
+      margin: auto;
+      border: 3px solid;
+      border-color: rgba(0,0,0,0.5);
+      width: 570px;
+      height: 200px;
+    }
+
+    #award{
+      border-radius: 5%;
+      font-weight: bold;
+      padding: 10px 0px;
+      translate: 0 30px;
+      line-height: 24px;
+      margin: auto;
+      border: 3px solid;
+      border-color: rgba(0,0,0,0.5);
+      width: 570px;
+      height: 200px;
+    }
+    #images{
+      border-radius: 5%;
+      padding: 10px 0px;
+      translate: 0 70px;
+      line-height: 24px;
+      margin: auto;
+      border: 3px solid;
+      border-color: rgba(0,0,0,0.5);
+      width: 570px;
+      height: 200px;
+    }
+    #images-nav{
+      translate: 3px -4px;
+    }
+
+    #accounts{
+      border-radius: 5%;
+      padding: 10px 0px;
+      translate: 0 108px;
+      line-height: 24px;
+      margin: auto;
+      border: 3px solid;
+      border-color: rgba(0,0,0,0.5);
+      width: 570px;
+      height: 200px;
+    }
+  </style>
+</html>
